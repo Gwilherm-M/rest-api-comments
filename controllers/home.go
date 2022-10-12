@@ -15,7 +15,9 @@ func HomePage(response http.ResponseWriter, request *http.Request) {
 	)
 	message = append(message, "Path: /comment/{id:[0-9a-z]+}")
 	message = append(message, "METHODE: GET, POST, PUT, DELETE")
-	message = append(message, "Path: /comments/{assetId}")
+	message = append(message, "Path: /assetsComments/")
+	message = append(message, "METHODE: GET")
+	message = append(message, "Path: /assetsComments/{assetId}")
 	message = append(message, "METHODE: GET")
 
 	utils.OutResponse(
