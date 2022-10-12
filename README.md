@@ -2,8 +2,6 @@
 
 Serveur Rest permettant de stocker et gérer une chaine de commentaires liés à un id d'asset.
 
-***
-
 ## Instalation
 
 Language : go 1.19.2
