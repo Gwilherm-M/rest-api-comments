@@ -90,3 +90,8 @@ L'attribut `updateAt`, __asc | des__ permet d'ordonner la liste dans l'ordre cro
       * Je regarde l'état de la BDD. Je m'assure que le compte Admin existe. Si jamais la BDD est vide, envisager de remettre la dernière sauvegarde en date. Je rédige un ticket d'alerte pour l'équipe.
     * Si aucun problème notable n'est visible sur la BDD, je regarde la date de la dernière release mise en prod.
       * Dans l'éventualité qu'une mise en production d'une nouvelle release aurait été faite la veille (peut-être buggé) remettre en prod la version précédente, analyser la problématique ou bug dans un environnement de développement. Je rédige un nouveau ticket tout en spécifiant le bug dans le code.  
+
+>Note:
+>
+>Si l'utilisateur est dans les locaux ou si je peux le recontacter,
+>Je lui demanderais de présiser le log et je m'assurer avec lui que sont systeme lui permet bien d'acceder à l'application.
